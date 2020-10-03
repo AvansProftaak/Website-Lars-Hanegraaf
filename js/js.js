@@ -2,6 +2,9 @@
 /*                           NAVBAR ACTIVE BUTTON                          */
 /* ----------------------------------------------------------------------- */
 
+
+/* Deze Javascript code werkt nog niet, ik wilde de navbar dikgedrukt hebben op
+basis van welke pagina je je bevindt. Voor nu de navactive class per pagina gewijzigd in de html */
 var btns = document.querySelectorAll(".navbtn");
 Array.from(btns).forEach(item => {
    item.addEventListener("click", () => {
