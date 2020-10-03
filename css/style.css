@@ -1,0 +1,210 @@
+/* ----------------------------------------------------------------------- */
+/*                           HTML EN BODY                                  */
+/* ----------------------------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* ----------------------------------------------------------------------- */
+/*                           HEADER + NAVBAR                               */
+/* ----------------------------------------------------------------------- */
+
+#headerNavbar {
+    display: grid; 
+ }
+.headerlogo {
+    max-width: 100%;
+    padding-bottom: 0;
+    display: block;
+} 
+
+.navbar {
+    background-color:#E38F88;
+    text-align: center;
+    border: 0;
+    margin: 0;
+}
+
+.navbtn {
+    background-color: transparent;
+    color: #005622;
+    padding: 16px 40px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbtn:hover,
+.navbtn:focus {
+    background-color: #005622;
+    color: whitesmoke;
+    padding: 16px 40px;
+}
+
+.navtxt {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+}
+
+.navactive {
+    font-weight: 800;
+}
+
+.submenu {
+    position: relative;
+    display: inline-block;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #E38F88;
+    min-width: 178px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 43%;
+}
+
+.subnav-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subnav-content a:hover {
+    background-color: #DB635B;
+}
+
+/* ----------------------------------------------------------------------- */
+/*                           Subtitel                                      */
+/* ----------------------------------------------------------------------- */
+
+.subtitle {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: center;
+}
+
+hr {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* ----------------------------------------------------------------------- */
+/*                           CONTENT                                       */
+/* ----------------------------------------------------------------------- */
+
+.content {
+    margin-left: 12%;
+}
+
+.textcolumn {
+    float: left;
+    margin-left: 40px;
+    width: 450px;
+}
+
+.akker {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.apples {
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.boerbart {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.paginatekst a {
+    color: #005622;
+}
+
+.paginatekst a:visited {
+    color: #38252b;
+}
+
+.paginatekst {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.paginatekst h3 {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+}
+
+.textcolumn h2 {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------- */
+/*                           FOOTER                                        */
+/* ----------------------------------------------------------------------- */
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: #005622;
+    bottom: 0;
+}
+
+.footerContent{
+    margin-left: 30%;
+}
+
+.footerFloat {
+    float: left;
+    color: white;
+    margin-right: 40px;
+}
+
+.footerFloat li {
+    list-style-type: none;
+    margin-left: 50px;
+    Font-family:  'Montserrat', sans-serif;
+}
+
+.footerFloat ul {
+    padding: 0;
+}
+
+.leftborder {
+    border-left: thin solid whitesmoke;
+}
+
+.footerFloat a {
+    color: whitesmoke;
+    text-decoration: none;
+    Font-family:  'Montserrat', sans-serif;
+}
+
+.footerFloat a:visited {
+    color: #b0cfc7;
+    background-color: transparent;
+    text-decoration: none;  
+}
+
+.footerFloat h4 {
+    margin-bottom: 10px;
+    Font-family:  'Montserrat', sans-serif;
+}
+
