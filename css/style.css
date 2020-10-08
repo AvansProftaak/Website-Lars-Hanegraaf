@@ -13,6 +13,15 @@ body {
 }
 
 /* ----------------------------------------------------------------------- */
+/*                           RESPONSIVENESS                                */
+/* ----------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+  }
+
+
+/* ----------------------------------------------------------------------- */
 /*                           HEADER + NAVBAR                               */
 /* ----------------------------------------------------------------------- */
 
@@ -72,14 +81,38 @@ body {
     margin-left: 43%;
 }
 
+.subnav-content2 {
+    display: none;
+    position: absolute;
+    background-color: #E38F88;
+    min-width: 178px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 36.6%;
+}
+
+
 .subnav-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subnav-content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .subnav-content a:hover {
+    background-color: #DB635B;
+}
+
+.subnav-content2 a:hover {
     background-color: #DB635B;
 }
 
@@ -208,3 +241,11 @@ hr {
     Font-family:  'Montserrat', sans-serif;
 }
 
+.col-3 {
+    width: 100%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
